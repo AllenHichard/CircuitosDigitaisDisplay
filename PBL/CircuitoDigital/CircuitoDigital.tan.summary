@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 85.100 ns
+From           : DivisorFrequencia:inst2|inst17
+To             : saidaprincipal1
+From Clock     : ClockSeletorPrincipal
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 32.800 ns
+From           : L1
+To             : saidaprincipal1
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ClockSeletorPrincipal'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 200.00 MHz ( period = 5.000 ns )
+From           : DivisorFrequencia:inst2|inst17
+To             : DivisorFrequencia:inst2|inst17~3
+From Clock     : ClockSeletorPrincipal
+To Clock       : ClockSeletorPrincipal
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
